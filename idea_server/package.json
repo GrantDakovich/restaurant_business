@@ -1,0 +1,17 @@
+{
+  "name": "idea_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server_endpoint.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "js-object-compare": "^1.0.0",
+    "mongodb": "^3.5.5"
+  }
+}

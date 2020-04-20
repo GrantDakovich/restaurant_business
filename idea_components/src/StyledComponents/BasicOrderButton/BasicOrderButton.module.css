@@ -1,0 +1,41 @@
+.BasicOrderButton {
+	font-size: 12px;
+	width: 40px;
+	height: 30px;
+	background-color: #3D9BE9;
+	display: inline-block;
+	position: absolute;
+	border-radius: 6px;
+	cursor: pointer;
+	text-align: center;
+	transition: all 0.3s;
+	box-shadow: 0 9px #999;
+	-webkit-user-select: none;
+	font-family: "bass_bay";
+}
+
+
+.BasicOrderButton:hover span {
+	letter-spacing: 2px;
+}
+
+.BasicOrderButton:hover::before {
+    opacity: 1; 
+    transform: scale(1, 1); 
+}
+
+.BasicOrderButton:hover::after {
+    opacity: 0; 
+    transform: scale(0.1, 1);
+}
+
+
+.BasicOrderButton:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+
+

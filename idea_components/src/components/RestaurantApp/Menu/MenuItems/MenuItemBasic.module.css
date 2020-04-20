@@ -1,0 +1,76 @@
+@font-face {
+  	font-family: 'bass_bay';
+  	src: url('legendm54.woff') format('woff'); /* Modern Browsers */
+}
+
+.menuItemContainer {
+	border:1px solid black;
+	width: 300px;
+	height: 600px;
+	background-color: #3D9BE9;
+	border-radius: 30px;
+	box-shadow: 0px 1px 8px 0 #999999;
+	display: inline-block;
+
+}
+
+.menuItem {
+	padding: 30px;
+	font-family: "bass_bay", "arial";
+	position: relative;
+}
+
+.itemTitle {
+	font-size: 40px;
+	display:block;
+	padding-bottom: 10px;
+}
+
+.itemPrice {
+	padding-bottom: 10px;
+	display: block;
+	opacity: 0.8;
+}
+
+.itemDescription {
+/*	width: 250px;*/
+	height: 200px;
+	padding-bottom: 15px;
+	display: block;
+	opacity: 0.8;
+}
+
+.dollarSign {
+	font-family: "arial";
+	opacity: 0.8;
+}
+
+.imgContainer {
+	position: absolute;
+	top: 250px;
+	width: 240px;
+	height: 240px;
+}
+
+.image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 30px;
+	box-shadow: 1px 1px 2px 0 #999999;
+}
+
+.button {
+	position:absolute; 
+	top: 500px;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,8 @@
+.OrderListElement {
+	margin-left: 20px;
+	background-color: blue;
+	height: 20px;
+	width: 210px;
+	display:inline-block;
+
+}
